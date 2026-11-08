@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Datos (no se suben datasets pesados)
+data/

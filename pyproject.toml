@@ -1,7 +1,7 @@
 [project]
 name = "ml-bases"
 version = "0.1.0"
-description = "Add your description here"
+description = "Fundamentos de Machine Learning: estadística, matemáticas y regresión con notebooks de Jupyter"
 readme = "README.md"
 authors = [
     { name = "Alexis-Reillo-Segarra", email = "alexisreillo12@gmail.com" }
@@ -18,9 +18,5 @@ dependencies = [
     "statsmodels>=0.15.0",
 ]
 
-[project.scripts]
-ml-bases = "ml_bases:main"
-
-[build-system]
-requires = ["uv_build>=0.12.16,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
